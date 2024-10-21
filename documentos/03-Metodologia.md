@@ -12,11 +12,9 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: Nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
-- Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
+- Scrum Master: João Emmanuel
+- Product Owner: Vitoria Vaz Luiz 
+- Equipe de Desenvolvimento: Dennis Daccach, Ilmara Helen Maruno, João Emmanuel, Karine Mikaelle Dias Pereira, Vitoria Vaz Luiz, Christian Boller.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -25,17 +23,22 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
+
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
+  O quadro kanban do grupo no GitHub pode ser acessado através do link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1424, conforme imagem abaixo:
+  ![image](https://github.com/user-attachments/assets/6ceded99-0625-4653-beda-7e17a477ef2d)
+
 
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
 > - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
 > - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
 > - [Tutorial Slack](https://slack.com/intl/en-br/)
+
 
 
 ### Etiquetas
@@ -63,12 +66,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
-
+| Repositório de código fonte         | GitHub                             | [http://....](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t12-pmv-ads-2024-2-e1-proj_adocao/tree/main/codigo-fonte)                            |
+| Documentos do projeto               | GitHub                             | [http://....](https://github.com/ICEI-PUC-Minas-PMV-ADS/https-github.com-ICEI-PUC-Minas-PMV-ADS-pmv-ads-2024-2-e1-proj-web-t12-pmv-ads-2024-2-e1-proj_adocao/tree/main/documentos)                            |
+| Projeto de Interface                | Canva                              | [http://....](https://www.canva.com/design/DAGPd6KidBE/7J6I6KnpkHoL6wJUvmNW4Q/edit?utm_content=DAGPd6KidBE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)                            |
+| Gerenciamento do Projeto            | GitHub Projects                    | [http://....](https://github.com/user-attachments/assets/6ceded99-0625-4653-beda-7e17a477ef2d)                            |
 
 ### Estratégia de Organização de Codificação 
 
