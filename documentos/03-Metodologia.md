@@ -30,7 +30,8 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
   O quadro kanban do grupo no GitHub pode ser acessado através do link: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1424, conforme imagem abaixo:
-  ![image](https://github.com/user-attachments/assets/6ceded99-0625-4653-beda-7e17a477ef2d)
+  
+ [ ![image](https://github.com/user-attachments/assets/6ceded99-0625-4653-beda-7e17a477ef2d)](https://private-user-images.githubusercontent.com/181911247/368394318-6ceded99-0625-4653-beda-7e17a477ef2d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk1NDg3OTIsIm5iZiI6MTcyOTU0ODQ5MiwicGF0aCI6Ii8xODE5MTEyNDcvMzY4Mzk0MzE4LTZjZWRlZDk5LTA2MjUtNDY1My1iZWRhLTdlMTdhNDc3ZWYyZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyMVQyMjA4MTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNDA0NjQ0YjJmZTBiZGEwMDQ4ZjRhMzUyNmVkMWNjMjg1MjhmZWM0OGZjMjhiNmE4MzlmMDQxN2VhNTc0ZmZjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.-njFKB-rRPNYd65k7S5l2gMaIqo4_2BVGMv094VK8hk)
 
 
 > **Links Úteis**:
