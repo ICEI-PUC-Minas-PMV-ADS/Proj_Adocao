@@ -1,25 +1,25 @@
-# Título do Projeto
+# Lar de Patas/PetMatch
 
-`CURSO`
+`Tecnologia em Analise e Desenv. de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo geral deste projeto é a criação de uma aplicação web de fácil acesso e uso que conecte abrigos, ONGs e potenciais adotantes, facilitando o processo de adoção de animais de estimação.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Christian Boller
+* Dennis Daccach
+* Ilmara Helen Maruno
+* João Emmanuel
+* Karine Mikaelle Dias Pereira
+* Vitoria Vaz Luiz
 
 ## Orientador
 
-* Nome completo do professor
+* Clóvis Lemos Tavares
 
 # Documentação
 
