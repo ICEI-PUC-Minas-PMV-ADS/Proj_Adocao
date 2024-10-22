@@ -10,7 +10,7 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 
 ## Integrantes
 
-* Christian Boller
+
 * Dennis Daccach
 * Ilmara Helen Maruno
 * João Emmanuel
