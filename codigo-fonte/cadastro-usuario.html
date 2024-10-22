@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+  
+</head>
+<body>
+    <div class="container">
+        <h1><img src="working.png" alt="Ícone" style="width: 150px; vertical-align: middle; margin-right: 5px;"> Cadastro de Usuário</h1>
+        <form id="formularioUsuario" onsubmit="redirecionar(); return false;">
+            <div class="grupo-formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="confirmarSenha">Confirmar Senha</label>
+                <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+            </div>
+
+            <button type="submit" style="display: block; margin: 0 auto;">Cadastrar</button>
+        </form>
+    </div>
+    <footer style="text-align: center; padding: 10px; background: linear-gradient(to right, #DEF591 10%, #709b70 50%, #DEF591); color: white; position: fixed; bottom: 0; width: 100%;">
+        <span>Desenvolvido pelo G1</span>
+        <a href="https://seulink.com" target="_blank" style="text-decoration: none; color: white;">
+            <img src="github.png" alt="Ícone" style="width: 20px; vertical-align: -3px; margin-left: 5px;">
+        </a>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
