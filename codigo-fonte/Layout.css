@@ -1,1 +1,44 @@
-Ilmara
+body {
+    background-color: #ebe2d8;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-title {
+    color: #884c10;
+    font-family: 'Rasputin', sans-serif;
+    font-size: 100px;
+}
+
+.subtitle {
+    color: #884c10;
+    font-family: 'Rasputin', sans-serif;
+    font-size: 60px;
+}
+
+.description {
+    color: #884c10;
+    font-family: 'Rasputin', sans-serif;
+    font-size: 20px;
+}
+
+img {
+    width: 100%; /* Ajuste automático de tamanho */
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.link-container a {
+    text-decoration: none;
+}
+
+.link-container b {
+    color: #884c10;
+    font-size: 35px;
+}
