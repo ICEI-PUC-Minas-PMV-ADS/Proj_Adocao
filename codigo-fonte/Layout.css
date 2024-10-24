@@ -4,6 +4,24 @@ body {
     position: relative;
 }
 
+.main-title {
+    color: #884c10;
+    font-family: Rasputin;
+    font-size: 100px;
+}
+
+.subtitle {
+    color: #884c10;
+    font-family: Rasputin;
+    font-size: 60px;
+}
+
+.description {
+    color: #884c10;
+    font-family: Rasputin;
+    font-size: 20px;
+}
+
 .button {
     color: #884c10;
     font-size: 35px;
@@ -16,12 +34,21 @@ body {
     text-shadow: 0 0 5px green;
 }
 
-.bottom {
-    margin-top: 20px;
-}
-
 .top-left {
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+nav {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;  
+    margin-left: 10px; /* Espaço entre o texto e a imagem */
 }
