@@ -15,14 +15,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ebe2d8;
     color: #333;
-    padding: 20px;
+    padding: 10px;
 }
 
 .articles {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 1200px;
+    grid-gap: 30px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
