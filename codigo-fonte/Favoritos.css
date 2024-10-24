@@ -62,12 +62,13 @@ body {
 }
 
 .pet-img {
-    text-align: right;
+    text-align: left;
 }
 
 .pet-img img {
     max-width: 200px;
     border-radius: 8px;
+    
 }
 
 .favorite-btn, .adopt-btn, .remove-btn {
