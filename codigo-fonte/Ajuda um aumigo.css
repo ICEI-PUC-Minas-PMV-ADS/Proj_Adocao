@@ -1,1 +1,74 @@
-João 
+<!--Dennis-->
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe2d8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    height: 100vh;
+}
+
+.container {
+    background-color: #709b70;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto dentro do formulário */
+    margin: 0 auto;  /* Garante centralização horizontal */
+}
+
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ebe2d8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grupo-formulario {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: bold;
+}
+
+input, textarea {
+    background-color: #709b70;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #709b70;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5a8360;
+}
