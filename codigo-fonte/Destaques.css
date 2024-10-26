@@ -7,12 +7,26 @@ header {
     background-color: #709b70;
     padding: 20px;
     text-align: center;
+    height: 40px;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 nav a {
