@@ -28,7 +28,7 @@ function salvarDados() {
         alert('Pet cadastrado com sucesso!');
         
         // Redireciona para outra página, se necessário
-        window.location.href = '2tela.html';
+        window.location.href = 'Pet para Adoção.html';
     };
     
     if (foto) {
