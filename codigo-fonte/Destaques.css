@@ -5,7 +5,7 @@ body {
 
 header {
     background-color: #709b70;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     height: 40px;
 }
@@ -104,4 +104,3 @@ footer a {
     text-decoration: none;
     font-weight: bold;
 }
-
