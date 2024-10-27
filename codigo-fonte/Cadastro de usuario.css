@@ -11,6 +11,13 @@
             overflow: auto;
             position: relative;
         }
+header {
+    background-color: #709b70;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
 
         body::before {
             content: "";
