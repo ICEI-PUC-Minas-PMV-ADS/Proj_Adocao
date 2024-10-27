@@ -17,8 +17,8 @@ body {
 }
 
 .logo-img {
-    height: 100px; /* Ajuste a altura para que corresponda ao tamanho do <h1> */
-    width: auto; /* Mantém a proporção da imagem */
+    height: 50px; 
+    width: 50px; 
 }
 
 .form-container {
