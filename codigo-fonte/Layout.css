@@ -12,17 +12,23 @@ header {
     background-color: #f4e5d8;
 
 }
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4e5d8;
 }
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 700px; 
+    width: 1900px; 
     text-align: center;
+    margin: 0;
+    object-fit: cover; 
+    height: 700; 
+    width: 1900; 
 }
 
 header {
@@ -30,6 +36,7 @@ header {
     width: 100%;
     background-color: #f4e5d8;
     padding: 20px;
+
 }
 
 h1 {
