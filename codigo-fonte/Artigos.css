@@ -17,7 +17,7 @@ nav {
 body {
     font-family: Arial, sans-serif;
     background-color: #cc9a60;
-    background-image: url('https://img.freepik.com/vetores-premium/padrao-sem-emenda-de-pata-de-gato-e-cachorro_251005-266.jpg?w=740');
+    background-image: url('https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t11-proj_adocao/refs/heads/main/documentos/img/fundo%20destaque.png');
     color: #333;
     padding: 10px;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .article {
-    background-color: #c79f72;
+    background-color: #dac8b3;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -64,3 +64,4 @@ p {
         flex-direction: column;
     }
 }
+
