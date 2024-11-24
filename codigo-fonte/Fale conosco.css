@@ -11,6 +11,14 @@ body {
     font-weight: bold;
 }
 
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ebe2d8;
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-sem-emenda-de-pata-de-gato-e-cachorro_251005-266.jpg?w=740');
+    color: #333;
+    padding: 10px;
+}
+
 .logo {
     position: absolute;
     top: 20px;
@@ -52,13 +60,13 @@ textarea {
     margin-bottom: 15px;
     border: 2px solid black; 
     border-radius: 5px;
-    background-color: #709b70;
+    background-color: #977d62;
     font-size: 1rem;
     font-weight: bold;
 }
 
 input[type="submit"] {
-    background-color: #709b70;
+    background-color: #977d62;
     color: black;
     border: none;
     padding: 10px 20px;
@@ -69,9 +77,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: white;
+    background-color: #816648;
 }
 
 textarea {
     resize: vertical;
 }
+
