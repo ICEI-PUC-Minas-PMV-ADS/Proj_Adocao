@@ -8,7 +8,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |:---|:---|
 | Requisitos Associados | RF-1 Alta prioridade|
 | Objetivo do Teste | Criacao de um cadastro novo, com dados validos |
-| Passos | Um dos integrantes da equipe entrara na pagina de cadastro e devera fornecer seus dados pedidos na pagina; Todos os campos devem ser preenchidos com caracteres validos; |o botao de "enviar2 deve ser pressionado ao final.
+| Passos | Um dos integrantes da equipe entrara na pagina de cadastro e devera fornecer seus dados pedidos na pagina; Todos os campos devem ser preenchidos com caracteres validos; o botao de "enviar" deve ser pressionado ao final.  |
 | Critérios de êxito | Uma mensagem de confirmacao deve aparecer na tela; os dados do novo usuario serao registrados no banco de dados do site. |
 | Responsável pela elaborar do caso de Teste | Ilmara Maruno |
 
