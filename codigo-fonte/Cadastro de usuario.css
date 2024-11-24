@@ -1,5 +1,4 @@
-/* Karine */
- body {
+body {
             font-family: Arial, sans-serif;
             background-color: #ebe2d8;
             margin: 0;
@@ -10,16 +9,25 @@
             height: 100vh;
             overflow: auto;
             position: relative;
-        }
+    }
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #a58562;
+        background-image: url('https://img.freepik.com/vetores-premium/padrao-sem-emenda-de-pata-de-gato-e-cachorro_251005-266.jpg?w=740');
+        color: #333;
+        padding: 10px;
+    }
+
 header {
-    background-color: #709b70;
+    background-color: #ebe2d8;
     padding: 15px;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
 }
 
-        body::before {
+
+body::before {
             content: "";
             position: absolute;
             top: 0;
@@ -34,16 +42,16 @@ header {
             z-index: -1; 
         }
 
-        .container {
-            background-color: #709b70;
-            padding: 20px;
-            width: 90%;
-            max-width: 500px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            position: relative;
-            z-index: 1; 
-        }
+.container {
+    background-color: #ebe2d8;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1; 
+}
 
         h1 {
             text-align: left;
@@ -53,7 +61,7 @@ header {
         }
 
         form {
-            background-color: #ebe2d8;
+            background-color: #cab297;
             padding: 20px;
             border-radius: 10px;
         }
@@ -72,11 +80,11 @@ header {
         }
 
         input {
-            background-color: #709b70;
+            background-color: #ebe2d8;
             border: 1px solid #000;
             border-radius: 5px;
             padding: 10px;
-            color: #fff;
+            color: #291e1e;
             font-size: 16px;
             width: 100%;
             box-sizing: border-box;
@@ -84,7 +92,7 @@ header {
 
         button {
             background-color: transparent;
-            color: #709b70;
+            color: #5c4730;
             padding: 10px;
             border: 1.5px solid #000;
             border-radius: 5px;
@@ -94,7 +102,7 @@ header {
             transition: all 0.3s ease;
         }
 
-        button:hover {
-            background-color: #709b70;
-            color: #fff;
-        }
+button:hover {
+background-color: #a87c45;
+color: #fff;
+}
