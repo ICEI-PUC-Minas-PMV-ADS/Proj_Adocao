@@ -1,140 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Página de pets para adoção" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de pets para adoção">
     <title>Pets para Adoção</title>
-    <link rel="stylesheet" href="Pet para Adoção.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="Pet para Adoção.css">
+</head>
+<body>
     <header>
-      <nav>
-        <a href="Destaques.html">
-          <img
-            src="../documentos/img/pet-house.png"
-            alt="Home"
-            style="width: 50px; height: 50px"
-          />
-        </a>
-        <a href="Favoritos.html" class="nav-link">Favoritos</a>
-      </nav>
+        <nav>
+            <a href="Destaques.html">
+                <img src="../documentos/img/pet-house.png" alt="Home" style="width: 50px; height: 50px;">
+            </a>
+            <a href="Favoritos.html" class="nav-link">Favoritos</a>
+        </nav>
     </header>
 
     <div class="content">
-      <h2 style="color: #a95f2b">Pets para Adoção</h2>
+        <h2 style="color: #a95f2b;;">Pets para Adoção</h2>
 
-      <!-- Pet 1 - Klebinho -->
-      <div class="pet-container">
-        <div class="pet-info">
-          <div class="pet-header">
-            <h3>Klebinho</h3>
-            <button class="favorite-btn" data-pet-id="klebinho">⭐</button>
-          </div>
-          <p>
-            <strong>Espécie:</strong> Cachorro<br />
-            <strong>Raça:</strong> SRD (Sem Raça Definida)<br />
-            <strong>Idade:</strong> 8 anos<br />
-            <strong>Condições de saúde:</strong> Vacinado e saudável<br />
-            <strong>Temperamento:</strong> Tranquilo e carinhoso<br />
-          </p>
-          <p>
-            Klebinho é um cãozinho de 8 anos que foi abandonado ainda filhote e
-            aguarda por adoção responsável. Ele é um cachorro tranquilo, muito
-            carinhoso e fiel, que se dá bem com pessoas e está pronto para
-            encontrar um lar onde possa compartilhar todo o amor que tem.
-            Vacinado e saudável, Klebinho precisa de uma família que entenda a
-            importância de uma adoção consciente, oferecendo-lhe todo o cuidado
-            e carinho que ele tanto merece. Adote Klebinho e ganhe um amigo leal
-            para a vida toda!
-          </p>
-          <button class="adopt-btn" onclick="redirectToForm('Klebinho')">
-            Quero Adotar
-          </button>
-        </div>
-        <div class="pet-img" id="kleb">
-          <img
-            src="https://www.pedigree.com.br/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2401/files/2022-04/hero-icon-Savannah_0.png"
-            class="kleb"
-            alt="Klebinho"
-          />
-        </div>
-      </div>
+        <section class="articles">
+            <div class="pet-container">
+                <div class="pet-info">
+                    <div class="pet-header">
+                        <h3>Klebinho</h3>
+                        <button class="favorite-btn" data-pet-id="klebinho">⭐</button>
+                    </div>
+                    <p><strong>Espécie:</strong> Cachorro<br>
+                       <strong>Raça:</strong> SRD (Sem Raça Definida)<br>
+                       <strong>Idade:</strong> 8 anos<br>
+                       <strong>Condições de saúde:</strong> Vacinado e saudável<br>
+                       <strong>Temperamento:</strong> Tranquilo e carinhoso<br>
+                    </p>
+                    <p>Klebinho é um cãozinho de 8 anos que foi abandonado ainda filhote e aguarda por adoção responsável. Ele é um cachorro tranquilo, muito carinhoso e fiel, que se dá bem com pessoas e está pronto para encontrar um lar onde possa compartilhar todo o amor que tem. Vacinado e saudável, Klebinho precisa de uma família que entenda a importância de uma adoção consciente, oferecendo-lhe todo o cuidado e carinho que ele tanto merece. Adote Klebinho e ganhe um amigo leal para a vida toda!</p>
+                    <button class="adopt-btn" onclick="redirectToForm('Klebinho')">Quero Adotar</button>
+                </div>
+                <div class="pet-img" id="kleb">
+                    <img src="https://www.pedigree.com.br/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2401/files/2022-04/hero-icon-Savannah_0.png" class="kleb" alt="Klebinho">
+                </div>
+            </div>
+        </section>
+        
 
-      <!-- Pet 2 - Junin -->
-      <div class="pet-container">
-        <div class="pet-info">
-          <div class="pet-header">
-            <h3>Junin</h3>
-            <button class="favorite-btn" data-pet-id="junin">⭐</button>
-          </div>
-          <p>
-            <strong>Espécie:</strong> Cachorro<br />
-            <strong>Raça:</strong> SRD (Sem Raça Definida)<br />
-            <strong>Idade:</strong> 4 anos<br />
-            <strong>Condições de saúde:</strong> Dócil e brincalhão<br />
-            <strong>Temperamento:</strong> Carinhoso e brincalhão<br />
-          </p>
-          <p>
-            Junin é um cãozinho de 4 anos que foi encontrado abandonado em uma
-            caixa nas ruas. Mesmo com um problema em sua patinha, ele é
-            extremamente brincalhão, carinhoso e adora estar por perto das
-            pessoas. Junin precisa de uma adoção consciente, com alguém disposto
-            a cuidar de suas necessidades especiais e oferecer muito amor. Se
-            você procura um companheiro afetuoso e cheio de vida, Junin está
-            esperando por você!
-          </p>
-          <button class="adopt-btn" onclick="redirectToForm('Junin')">
-            Quero Adotar
-          </button>
+        <!-- Pet 2 - Junin -->
+        <div class="pet-container">
+            <div class="pet-info">
+                <div class="pet-header">
+                    <h3>Junin</h3>
+                    <button class="favorite-btn" data-pet-id="junin">⭐</button>
+                </div>
+                <p><strong>Espécie:</strong> Cachorro<br>
+                   <strong>Raça:</strong> SRD (Sem Raça Definida)<br>
+                   <strong>Idade:</strong> 4 anos<br>
+                   <strong>Condições de saúde:</strong> Dócil e brincalhão<br>
+                   <strong>Temperamento:</strong> Carinhoso e brincalhão<br>
+                </p>
+                <p>Junin é um cãozinho de 4 anos que foi encontrado abandonado em uma caixa nas ruas. Mesmo com um problema em sua patinha, ele é extremamente brincalhão, carinhoso e adora estar por perto das pessoas. Junin precisa de uma adoção consciente, com alguém disposto a cuidar de suas necessidades especiais e oferecer muito amor. Se você procura um companheiro afetuoso e cheio de vida, Junin está esperando por você!</p>
+                <button class="adopt-btn" onclick="redirectToForm('Junin')">Quero Adotar</button>
+            </div>
+            <div class="pet-img">
+                <img src="https://www.pedigree.com.br/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2401/files/2023-10/Dog%20image.png" alt="Junin">
+            </div>
         </div>
-        <div class="pet-img">
-          <img
-            src="https://www.pedigree.com.br/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2401/files/2023-10/Dog%20image.png"
-            alt="Junin"
-          />
-        </div>
-      </div>
 
-      <!-- Pet 3 - Kiara -->
-      <div class="pet-container">
-        <div class="pet-info">
-          <div class="pet-header">
-            <h3>Kiara</h3>
-            <button class="favorite-btn" data-pet-id="kiara">⭐</button>
-          </div>
-          <p>
-            <strong>Espécie:</strong> Cachorro<br />
-            <strong>Raça:</strong> SRD (Sem Raça Definida)<br />
-            <strong>Idade:</strong> 6 anos<br />
-            <strong>Condições de saúde:</strong> Saudável e vacinada<br />
-            <strong>Temperamento:</strong> Carinhosa e brincalhona<br />
-          </p>
-          <p>
-            Kiara é uma cachorrinha amorosa e cheia de energia, que atualmente
-            vive em um lar temporário e está em busca de uma família definitiva.
-            Ela é muito manhosa, adora brincar e se diverte com crianças, mas
-            também aprecia momentos de descanso e uma boa soneca. Com seu jeito
-            doce e alegre, Kiara vai trazer muito amor e felicidade para quem
-            decidir adotá-la. Está pronta para ser sua nova companheira fiel!
-          </p>
-          <button class="adopt-btn" onclick="redirectToForm('Kiara')">
-            Quero Adotar
-          </button>
+        Kiara
+        <div class="pet-container">
+            <div class="pet-info">
+                <div class="pet-header">
+                    <h3>Kiara</h3>
+                    <button class="favorite-btn" data-pet-id="kiara">⭐</button>
+                </div>
+                <p><strong>Espécie:</strong> Cachorro<br>
+                   <strong>Raça:</strong> SRD (Sem Raça Definida)<br>
+                   <strong>Idade:</strong> 6 anos<br>
+                   <strong>Condições de saúde:</strong> Saudável e vacinada<br>
+                   <strong>Temperamento:</strong> Carinhosa e brincalhona<br>
+                </p>
+                <p>Kiara é uma cachorrinha amorosa e cheia de energia, que atualmente vive em um lar temporário e está em busca de uma família definitiva. Ela é muito manhosa, adora brincar e se diverte com crianças, mas também aprecia momentos de descanso e uma boa soneca. Com seu jeito doce e alegre, Kiara vai trazer muito amor e felicidade para quem decidir adotá-la. Está pronta para ser sua nova companheira fiel!</p>
+                <button class="adopt-btn" onclick="redirectToForm('Kiara')">Quero Adotar</button>
+            </div>
+            <div class="pet-img">
+                <img src="https://www.pedigreeadotar.com.br/wp-content/uploads/2023/11/dog-min.png" alt="Kiara">
+            </div>
         </div>
-        <div class="pet-img">
-          <img
-            src="https://www.pedigreeadotar.com.br/wp-content/uploads/2023/11/dog-min.png"
-            alt="Kiara"
-          />
-        </div>
-      </div>
     </div>
 
-    <footer>
-      <p><a href="Fale conosco.html">Fale conosco</a></p>
-    </footer>
 
     <script src="Pet para Adoção.js"></script>
-  </body>
+</body>
 </html>
