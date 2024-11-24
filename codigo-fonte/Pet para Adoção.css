@@ -1,25 +1,4 @@
 body {
-  background-color: #ebe2d8;
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background-color: #709b70;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav a.nav-link {
-  color: black;body {
     background-color: #ebe2d8;
     font-family: Arial, sans-serif;
   }
