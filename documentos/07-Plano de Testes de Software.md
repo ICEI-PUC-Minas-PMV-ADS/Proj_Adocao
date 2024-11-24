@@ -1,8 +1,24 @@
 # Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+
+Os testes funcionais a serem realizados na aplicação são descritos a seguir.
+
+|Caso de Teste  1  | CT- Criando uma conta |
+|:---|:---|
+| Requisitos Associados | RF-1 Alta prioridade|
+| Objetivo do Teste | Criacao de um cadastro novo, com dados validos |
+| Passos | Um dos integrantes da equipe entrara na pagina de cadastro e devera fornecer seus dados pedidos na pagina; Todos os campos devem ser preenchidos com caracteres validos; |o botao de "enviar2 deve ser pressionado ao final.
+| Critérios de êxito | Uma mensagem de confirmacao deve aparecer na tela; os dados do novo usuario serao registrados no banco de dados do site. |
+| Responsável pela elaborar do caso de Teste | Ilmara Maruno |
+
+|Caso de Teste    | CT-X - Título Caso de Teste |
+|:---|:---|
+| Requisitos Associados | RF-X |
+| Objetivo do Teste | Descrição do objetivo do teste |
+| Passos | Indicar passos para a execução do teste |
+| Critérios de êxito | Indicar os critérios de êxito  |
+| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
