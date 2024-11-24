@@ -72,7 +72,8 @@ Karine.
 
 ### Pets para adocao
 
-[Adicione imagem da funcionalidade/tela]
+![image](https://github.com/user-attachments/assets/145a18be-c506-4629-ab1f-7c5ba3211c2b)
+
 
 
 #### Requisito atendido
@@ -102,79 +103,23 @@ Pet para Adoção ADM.js
 Dennis. 
 
 
-### Artigos
-
-[Adicione imagem da funcionalidade/tela]
-
-
-#### Requisito atendido
-
-[RF-X: adicione a descrição do requisito atendido]
-
-
-#### Artefatos da funcionalidade
-
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
-
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
-### Destaques
-
-[Adicione imagem da funcionalidade/tela]
-
-
-#### Requisito atendido
-
-[RF-X: adicione a descrição do requisito atendido]
-
-
-#### Artefatos da funcionalidade
-
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
-
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
 
 
 ### Fale conosco
 
-[Adicione imagem da funcionalidade/tela]
+![image](https://github.com/user-attachments/assets/58d0bdc6-5a0b-410a-9b35-71105e217b02)
+
 
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
-
+O sistema deve permitir que o cliente faça o acompanhamento pós adoção, garantindo o bem-estar do animal adotado.
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+Fale conosco.css
+Fale conosco.html
+Fale conosco.js
 
 
 #### Estrutura de Dados
@@ -189,7 +134,7 @@ Dennis.
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Vitoria, Ilmara.
 
 
 ### Favoritos
