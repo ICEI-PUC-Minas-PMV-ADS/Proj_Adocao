@@ -40,4 +40,3 @@ function resetAutoSlide() {
 
 
 let autoSlideInterval = setInterval(autoSlide, intervalTime);
-
