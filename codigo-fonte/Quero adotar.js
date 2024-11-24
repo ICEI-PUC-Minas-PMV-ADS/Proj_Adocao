@@ -1,4 +1,3 @@
-Karine
 document.getElementById('petForm').addEventListener('submit', function(event) {
     event.preventDefault(); 
 
@@ -18,5 +17,4 @@ document.getElementById('petForm').addEventListener('submit', function(event) {
         alert('Por favor, preencha todos os campos.');
     }
 });
-
 
