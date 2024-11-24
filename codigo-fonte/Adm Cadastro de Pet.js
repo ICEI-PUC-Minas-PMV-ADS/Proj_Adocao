@@ -7,7 +7,7 @@ const campoImagem = document.getElementById("campoImagem");
 const campoID = document.getElementById("campoID");
 const fechaModal = document.getElementById("fechaModal");
 
-// Botões
+
 const btCriar = document.getElementById("btCriar");
 const btAlterar = document.getElementById("btAlterar");
 const btExcluir = document.getElementById("btExcluir");
@@ -28,7 +28,7 @@ mostraTabela();
 function mostraTabela() {
   const dados = readTarefas();
   petContainer.innerHTML = "";
-  // carrega dados
+  
   dados.forEach((item) => {
     const petRow = `
       <div class="pet-row" id="linha-${item.id}">
@@ -92,7 +92,7 @@ function mostraTabela() {
   configurarBotoes();
 }
 
-// Mostra a janela modal para Cad Pet p/ Adoção (evento bt)
+
 btCadPet.onclick = function () {
   campoNome.value = "";
   campoEspecie.value = "";
@@ -113,7 +113,7 @@ btCadPet.onclick = function () {
   campoNome.focus();
 };
 
-//Evento do botão Salvar quando do Cad Pet Adoção
+
 btCriar.onclick = async function () {
   const id = Date.now();
   let base64Image = "";
@@ -149,10 +149,10 @@ function configurarBotoes() {
       mostraTabela();
     });
   });
-  /*O botão adotar pet ainda não está configurado*/
+ 
 }
 
-// Verifica se os cinco campos estão preenchidos antes de criar ou alterar tarefa
+
 let liberaBotao = function () {
   if (
     campoDescricao.value.length > 0 &&
@@ -175,8 +175,7 @@ campoEspecie.onchange = liberaBotao;
 campoImagem.onchange = liberaBotao;
 btCancelar.disabled = false;
 
-// Mostra a janela modal para edição de uma tarefa existente
-//"Evento" do botão Editar
+
 document.querySelector(".pet-container").addEventListener("click", (e) => {
   if (e.target.classList.contains("btEditar")) {
     const id = parseInt(e.target.dataset.id);
@@ -204,7 +203,7 @@ function editarPet(id) {
   campoImagem.value = "";
 }
 
-//Evento do botão Alterar que salva as alterações (edição) no pet
+
 btAlterar.onclick = async function () {
   const petEditado = {
     id: parseInt(campoID.value),
@@ -222,7 +221,7 @@ btAlterar.onclick = async function () {
   mostraTabela();
 };
 
-// Evento do botão Excluir
+
 document.querySelector(".pet-container").addEventListener("click", (e) => {
   if (e.target.classList.contains("btExcluir")) {
     const id = parseInt(e.target.dataset.id);
@@ -240,7 +239,7 @@ fechaModal.onclick = () => {
   modalTarefa.style.display = "none";
 };
 
-//Parte do botão favoritar
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const petList = document.querySelector(".pet-container");
@@ -250,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  // Delegação de evento para capturar cliques nos botões de favoritar
+  
   petList.addEventListener("click", (event) => {
     console.log("Clique detectado no elemento:", event.target);
 
