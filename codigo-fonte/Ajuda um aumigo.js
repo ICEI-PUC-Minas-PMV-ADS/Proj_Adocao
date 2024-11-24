@@ -1,6 +1,5 @@
-/*Dennis*/
 function salvarDados() {
-    const especie = document.getElementById('especie').value;
+    const especie = document.getElementById('nome').value;
     const raca = document.getElementById('raca').value;
     const porte = document.getElementById('porte').value;
     const informacoes = document.getElementById('informacoes').value;
@@ -35,3 +34,4 @@ function salvarDados() {
         leitorDeArquivo.readAsDataURL(foto); // Converte a imagem para base64
     }
 }
+
