@@ -19,63 +19,88 @@ nav {
 }
 
 nav a.nav-link {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
+  color: black;body {
+    background-color: #ebe2d8;
+    font-family: Arial, sans-serif;
+  }
+
+header {
+    background-color: #b98e77;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+
+nav {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav a.nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+   
 }
 
 nav a.nav-link img {
-  display: block;
-  width: 50px;
-  height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+
 }
+
 .content {
-  margin: 20px;
+    margin: 20px;
 }
 
 .pet-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
-  border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 .pet-info {
-  text-align: justify;
-  hyphens: auto;
-  width: 70%;
+    text-align: justify;
+    hyphens: auto;
+    width: 70%;
 }
 
 .pet-img {
-  text-align: right;
+    text-align: right;
 }
 
 .pet-img img {
-  max-width: 350px;
-  border-radius: 8px;
-  margin-right: 100px;
+    max-width: 350px;
+    border-radius: 8px;
+    margin-right: 100px;
 }
 
 .pet-img img.kleb {
-  max-width: 500px; /* Limita o tamanho máximo da largura a 500px */
-  width: 100%; /* Ela vai se expandir até 100% do espaço disponível */
-  height: auto;
+    max-width: 500px; 
+    width: 100%; 
+    height: auto;
 }
 
-.favorite-btn,
-.adopt-btn {
-  background-color: #ffcc00;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  margin-top: 10px;
-  font-size: 16px;
+.favorite-btn, .adopt-btn {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .adopt-btn {
-  background-color: #6b8e23;
-  color: white;
+    background-color:#7e5d4b;
+    color: white;
 }
