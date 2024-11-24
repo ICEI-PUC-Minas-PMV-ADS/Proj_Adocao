@@ -2,7 +2,7 @@ header {
   background-color: #b98e77;
   padding: 0 20px;
   display: flex;
-  /*position: fixed;*/
+  
   top: 0;
   justify-content: space-between;
   align-items: center;
@@ -58,7 +58,7 @@ nav a {
   gap: 20px;
 }
 
-/* Card dos pets */
+
 .pet-row {
   display: flex;
   flex-direction: column;
@@ -99,7 +99,7 @@ button {
   margin-top: 10px;
 }
 
-/* Modal */
+
 .modal {
   display: none;
   position: fixed;
