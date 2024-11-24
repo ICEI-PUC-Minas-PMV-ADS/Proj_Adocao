@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe2d8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-sem-emenda-de-pata-de-gato-e-cachorro_251005-266.jpg?w=740');
+    background-size: auto;
+    color: #333;
+}
+
+
+.container {
+    background-color: #dac8b3;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ebe2d8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grupo-formulario {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: bold;
+}
+
+input {
+    background-color: #a5896a;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #a5896a;
+    color: #3b3630;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #926e45;
+}
+
+
+#forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
+}
