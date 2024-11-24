@@ -13,7 +13,6 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 
 * Dennis Daccach
 * Ilmara Helen Maruno
-* João Emmanuel
 * Karine Mikaelle Dias Pereira
 * Vitoria Vaz Luiz
 
