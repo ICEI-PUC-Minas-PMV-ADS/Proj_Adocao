@@ -10,27 +10,22 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Criacao de um cadastro novo, com dados validos |
 | Passos | Um dos integrantes da equipe entrara na pagina de cadastro e devera fornecer seus dados pedidos na pagina; Todos os campos devem ser preenchidos com caracteres validos; o botao de "enviar" deve ser pressionado ao final.  |
 | Critérios de êxito | Uma mensagem de confirmacao deve aparecer na tela; os dados do novo usuario serao registrados no banco de dados do site. |
-| Responsável pela elaborar do caso de Teste | Ilmara Maruno |
+| Responsável pela elaborar do caso de Teste | Ilmara |
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste  2  | CT- Navegando nas funcionalidades|
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Requisitos Associados | RF-4 Media prioridade |
+| Objetivo do Teste | Verificar se o usuario consegue salvar (favoritar) animais de interesse. |
+| Passos | Navegando pelas paginas de destaque, por exemplo, o usuario encontrara uma lista com animais diversos para adocao; encontrando um que lhe interessa ou chame atencao, podera clicar no botao especifico para "favoritar" o pet; podera ter acesso a ficha e dados do animal a qualquer momento, desde que esteja loggado. |
+| Critérios de êxito | Em sua pagina pessoal, o usuario deve ter uma aba com a tag de "Favoritos" onde todos os pets adicionados serao apresentados.  |
+| Responsável pela elaborar do caso de Teste | Vitoria |
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste  3  | CT- Cadastrando um pet |
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Requisitos Associados | RF-2 Alta prioridade|
+| Objetivo do Teste |  Verificar se e possivel cadastrar um animal para adocao.  |
+| Passos | Usuario loggado, podera clicar no link "cadastro do pet"; sera redirecionado para a pagina com formulario a ser preenchido; todos os campos devem ser preenchidos com dados veridicos e atuais do animal; havera um botao para upload de imagens; para finalizar, clicar em "enviar". |
+| Critérios de êxito | Formulario so sera enviado, e mostrara uma mensagem de confirmacao, caso todos os campos estejam preenchidos. Deve ser uma ficha feita por usuario ja registrado  |
+| Responsável pela elaborar do caso de Teste | Dennis |
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
