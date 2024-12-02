@@ -12,8 +12,8 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-- Scrum Master: João Emmanuel
-- Product Owner: Vitoria Vaz Luiz 
+- Scrum Master: Vitoria Vaz Luiz
+- Product Owner: Dennis Daccach 
 - Equipe de Desenvolvimento: Dennis Daccach, Ilmara Helen Maruno, João Emmanuel, Karine Mikaelle Dias Pereira, Vitoria Vaz Luiz.
 
 > **Links Úteis**:
