@@ -62,15 +62,30 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+No desenvolvimento do projeto, utilizamos um conjunto de ferramentas e ambientes de trabalho que facilitam a colaboração, a organização e o fluxo de trabalho da equipe. Esses recursos foram escolhidos de forma a atender às demandas específicas do projeto e promover uma execução eficiente.
+
+### Ferramentas e Ambientes de Trabalho
+
+#### **1. Ambiente de Desenvolvimento e Gestão de Código-Fonte**
+- **Visual Studio Code (VSC):** Foi a principal ferramenta de desenvolvimento utilizada pela equipe. O VSC, com sua ampla gama de extensões e integração nativa com o GitHub, permitiu o gerenciamento eficiente do código-fonte e a colaboração entre os membros do time.
+- **GitHub:** Utilizamos um repositório central no GitHub para armazenar e versionar o código-fonte do projeto. A plataforma proporcionou controle de versão, revisão de código (pull requests) e rastreamento de alterações, garantindo a integridade e a consistência do código ao longo do desenvolvimento.
+
+#### **2. Comunicação e Organização da Equipe**
+- **Microsoft Teams:** Realizamos encontros regulares no Teams para discussões e alinhamentos sobre o progresso do projeto. As reuniões permitiram a resolução de dúvidas, a definição de estratégias e a tomada de decisões coletivas.
+- **WhatsApp:** Utilizamos o WhatsApp para comunicação ágil e informal entre os membros da equipe. A ferramenta foi essencial para troca rápida de informações, agendamento de reuniões e alinhamentos pontuais.
+
+#### **3. Processo e Gestão de Times**
+Adotamos um modelo colaborativo, com tarefas distribuídas entre os membros da equipe, definindo prazos claros e responsabilidades. O GitHub também foi utilizado como suporte para organizar as tarefas, utilizando sua funcionalidade de issues e projetos (boards). Essa abordagem permitiu uma visão clara do andamento do projeto, priorização de atividades e acompanhamento das entregas.
+
+Esse conjunto de ferramentas e métodos proporcionou um ambiente integrado e eficiente, garantindo a produtividade e a sinergia entre os membros da equipe ao longo do desenvolvimento do projeto.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | [http://....](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t12-pmv-ads-2024-2-e1-proj_adocao/tree/main/codigo-fonte)                            |
-| Documentos do projeto               | GitHub                             | [http://....](https://github.com/ICEI-PUC-Minas-PMV-ADS/https-github.com-ICEI-PUC-Minas-PMV-ADS-pmv-ads-2024-2-e1-proj-web-t12-pmv-ads-2024-2-e1-proj_adocao/tree/main/documentos)                            |
-| Projeto de Interface                | Canva                              | [http://....](https://www.canva.com/design/DAGPd6KidBE/7J6I6KnpkHoL6wJUvmNW4Q/edit?utm_content=DAGPd6KidBE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)                            |
+| Repositório de código fonte         | GitHub                             | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t11-proj_adocao/tree/main/codigo-fonte]               
+| Documentos do projeto               | GitHub                             | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t11-proj_adocao/tree/main/documentos                           |
+| Projeto de Interface                | Canva                              | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t11-proj_adocao/blob/main/documentos/04-Projeto%20de%20Interface.md                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | [http://....](https://github.com/user-attachments/assets/6ceded99-0625-4653-beda-7e17a477ef2d)                            |
 
 ### Estratégia de Organização de Codificação 
