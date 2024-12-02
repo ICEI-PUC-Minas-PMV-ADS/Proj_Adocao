@@ -88,13 +88,12 @@
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
 | RF-01 |  O site deve prover o cadastro de usuários Master responsáveis pelo processo adoção. Usuários comuns devem poder se cadastrar no site.  | Alta | 
-|  RF-02 |O sistema deve permitir o cadastro de pets para adoção, contendo informações como espécie, raça, porte, condições de saúde, temperamento, fotos. | Alta |
+| RF-02 |O sistema deve permitir o cadastro de pets para adoção pelo usuário Master, contendo informações como espécie, raça, porte, condições de saúde, temperamento, fotos. | Alta |
 |RF-03 | O sistema deve permitir a visualização de uma lista de pets disponíveis para adoção, com filtros para espécie, raça e localização, contendo informações detalhadas como condições de saúde, temperamento, fotos.  |Alta  |
 |RF-04  |O sistema deve permitir que o usuário salve ou "favorite" animais de interesse para visualizar mais tarde.  |Média  |
-|RF-05  |O sistema deve exigir que o adotante ao escolher um animal para adoção preencha um termo de compromisso garantindo a adoção responsável. |Alta  |
-|RF-06  |O sistema deve permitir que o usuário interessado possa se comunicar com o doador através de formulário.  (e-mail para contato ou telefone)   |Média  |
-|RF-07  |O sistema deve permitir que o usuário edite ou remova um pet cadastrado, se necessário.   |Média |   
-|RF-08  |O sistema deve permitir que o cliente faça o acompanhamento pós adoção, garantindo o bem-estar do animal adotado.   |Média |
+|RF-05  |O sistema deve exigir que o adotante ao escolher um animal para adoção preencha um formulário contendo suas informações como nome, endereço, e formas de contato (email/telefone). |Alta  |
+|RF-07  |O sistema deve permitir que o usuário Master edite ou remova um pet cadastrado, se necessário.   |Média |   
+|RF-08  |O sistema deve permitir que o cliente faça o cadastramento de um Pet para adoção, que será incluido ou não somente pelo usuário Master, após análise.   |Alta |
 <br>
 **Prioridade: Alta / Média / Baixa. 
 
