@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ajuda um aumigo</title>
-    <link rel="stylesheet" href="Ajuda um aumigo.css">
-</head>
-<body>
+    <link rel="stylesheet" href="Ajuda um aumigo.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>
-            <img src="../documentos/img/transparent-dog-cute-cat-face-big-eyes-sketch-black-and-white-simple-black-and-white-sketch-of-cute-cat65a8b96395d966.9386986217055563236138.png" alt="Ícone" style="width: 60px; vertical-align: middle; margin-right: 5px;"> 
-            Ajuda um aumigo
-            <a href="Destaques.html" class="logo">
-                <img src="../documentos/img/pet-house.png" alt="Logo" class="logo-img" style="
-                width: 30px;
-                height: 30px; margin-left: 130px;">
-            </a>
-        </h1>
-        <form id="formularioPet" onsubmit="salvarDados(); return false;">
-            <div class="grupo-formulario">
-                <label for="especie">Espécie</label>
-                <input type="text" id="especie" name="especie" required>
-            </div>
+      <h1>
+        <img
+          src="../documentos/img/transparent-dog-cute-cat-face-big-eyes-sketch-black-and-white-simple-black-and-white-sketch-of-cute-cat65a8b96395d966.9386986217055563236138.png"
+          alt="Ícone"
+          style="width: 60px; vertical-align: middle; margin-right: 5px"
+        />
+        Ajude um Au!migo
+        <a href="Destaques.html" class="logo">
+          <img
+            src="../documentos/img/pet-house.png"
+            alt="Logo"
+            class="logo-img"
+            style="width: 30px; height: 30px; margin-left: 130px"
+          />
+        </a>
+      </h1>
+      <form id="formularioPet" onsubmit="salvarDados(); return false;">
+        <div class="grupo-formulario">
+          <label for="especie">Espécie</label>
+          <input type="text" id="especie" name="especie" required />
+        </div>
 
-            <div class="grupo-formulario">
-                <label for="raca">Raça</label>
-                <input type="text" id="raca" name="raca" required>
-            </div>
+        <div class="grupo-formulario">
+          <label for="raca">Raça</label>
+          <input type="text" id="raca" name="raca" required />
+        </div>
 
-            <div class="grupo-formulario">
-                <label for="porte">Porte</label>
-                <input type="text" id="porte" name="porte" required>
-            </div>
+        <div class="grupo-formulario">
+          <label for="porte">Porte</label>
+          <input type="text" id="porte" name="porte" required />
+        </div>
 
-            <div class="grupo-formulario">
-                <label for="informacoes">Informações: condições saúde/temperamento</label>
-                <textarea id="informacoes" name="informacoes" required></textarea>
-            </div>
+        <div class="grupo-formulario">
+          <label for="informacoes"
+            >Informações: condições saúde/temperamento</label
+          >
+          <textarea id="informacoes" name="informacoes" required></textarea>
+        </div>
 
-            <div class="grupo-formulario">
-                <label for="foto">Foto do Pet</label>
-                <input type="file" id="foto" name="foto" accept="image/*" required>
-            </div>
+        <div class="grupo-formulario">
+          <label for="foto">Foto do Pet</label>
+          <input type="file" id="foto" name="foto" accept="image/*" required />
+        </div>
 
-            <button type="submit">Cadastrar</button>
-        </form>
+        <button type="submit">Cadastrar</button>
+      </form>
     </div>
-    
+
     <script src="Ajuda um aumigo.js"></script>
-</body>
+  </body>
 </html>
