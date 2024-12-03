@@ -36,7 +36,7 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-2-e1-proj-web-t11-proj_adocao/codigo-fonte/Layout.html 
 
 # Código-Fonte
 
