@@ -5,7 +5,7 @@ function redirectToForm(petName) {
 function removeFavorite(petId, petElement) {
   let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
-  favorites = favorites.filter((fav) => fav.id !== petId); // Verifica pelo ID
+  favorites = favorites.filter((fav) => fav.id !== petId);
 
   localStorage.setItem("favorites", JSON.stringify(favorites));
 
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function loadFavorites() {
-    const favorites = JSON.parse(localStorage.getItem("favorites")) || []; // Carrega favoritos
+    const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
     const favoritePetsContainer = document.getElementById("favorite-pets");
     favoritePetsContainer.innerHTML = "";
 
@@ -60,7 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const petDiv = document.createElement("div");
       petDiv.classList.add("pet-container");
 
-      // Monta a exibição do pet
       petDiv.innerHTML = `
             <div class="pet-info">
                 <h3>${pet.nome}</h3>
@@ -75,7 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       favoritePetsContainer.appendChild(petDiv);
 
-      // Botão para remover o pet dos favoritos
       const removeBtn = petDiv.querySelector(".remove-btn");
       removeBtn.addEventListener("click", () => removeFavorite(pet.id, petDiv));
     });

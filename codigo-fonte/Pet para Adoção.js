@@ -268,16 +268,15 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function redirectToForm(petName) {
-  // Redireciona para a página de adoção com o nome do pet
   window.location.href = `Quero adotar.html?pet=${petName}`;
 }
 
 //PARTE DO FAVORITAR
-// Função global
+
 function toggleFavorite(petId) {
   let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-  const pets = readTarefas(); // Função que retorna os dados completos dos pets
-  const pet = pets.find((i) => i.id === parseInt(petId)); // Encontra o pet completo pelo ID
+  const pets = readTarefas();
+  const pet = pets.find((i) => i.id === parseInt(petId));
 
   if (!pet) {
     console.error("Pet não encontrado!");
@@ -287,16 +286,15 @@ function toggleFavorite(petId) {
   const isFavorited = favorites.some((fav) => fav.id === pet.id);
 
   if (isFavorited) {
-    favorites = favorites.filter((fav) => fav.id !== pet.id); // Remove o pet dos favoritos
+    favorites = favorites.filter((fav) => fav.id !== pet.id);
   } else {
-    favorites.push(pet); // Adiciona o objeto completo do pet aos favoritos
+    favorites.push(pet);
   }
 
-  localStorage.setItem("favorites", JSON.stringify(favorites)); // Atualiza o localStorage
-  updateFavoriteButton(petId); // Atualiza o estado visual do botão
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+  updateFavoriteButton(petId);
 }
 
-// Função para atualizar o estado visual do botão de favorito
 function updateFavoriteButton(petId) {
   let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
   document.querySelectorAll(".btFavoritar").forEach((btn) => {
